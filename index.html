@@ -3,102 +3,115 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#050505">
+  <meta name="description" content="BLACKMOVIL Medellín — Tecnología Apple y Samsung. Catálogo y atención personalizada por WhatsApp.">
   <title>BLACKMOVIL | Apple & Samsung</title>
-  <meta name="description" content="BLACKMOVIL Medellín — Tecnología Apple y Samsung. Catálogo, precios y atención personalizada por WhatsApp.">
+  <link rel="icon" href="assets/blackmovil-logo.png" type="image/png">
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header class="header">
-    <a class="brand" href="#">
+    <a class="brand" href="#inicio" aria-label="BLACKMOVIL inicio">
       <span class="brand-mark">BM</span>
-      <span>
-        <strong>BLACKMOVIL</strong>
-        <small>APPLE & SAMSUNG</small>
-      </span>
+      <span class="brand-copy"><strong>BLACKMOVIL</strong><small>APPLE &amp; SAMSUNG</small></span>
     </a>
-    <a class="header-wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20informaci%C3%B3n%20sobre%20un%20producto." target="_blank">WhatsApp</a>
+    <a class="header-wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20informaci%C3%B3n%20sobre%20un%20producto." target="_blank" rel="noopener">
+      <span class="wa-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.3 11.3 0 0 0 12.1.1C5.9.1.9 5.1.9 11.3c0 2 .5 3.9 1.5 5.6L.8 23.9l7.2-1.6a11.2 11.2 0 0 0 4.1.8h.1c6.2 0 11.2-5 11.2-11.2 0-3-1-6.1-3-8.4ZM12.2 21.2h-.1a9.4 9.4 0 0 1-3.8-.8l-.3-.1-4.3.9.9-4.2-.2-.3a9.3 9.3 0 0 1-1.4-5c0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8a9.4 9.4 0 0 1 2.8 6.7c0 5.2-4.2 9.4-9.4 9.4Zm5.2-7c-.3-.2-1.7-.9-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.8.6.8.3 1.6.2 2.2.1.6-.1 1.7-.7 2-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></span>
+      WhatsApp
+    </a>
   </header>
 
   <main>
-    <section class="hero">
+    <section id="inicio" class="hero">
       <div class="hero-copy">
         <p class="eyebrow">MEDELLÍN · COLOMBIA</p>
         <h1>Tu mundo.<br><span>Tu estilo.</span><br>Tu tecnología.</h1>
-        <p class="hero-text">Tecnología Apple & Samsung seleccionada para quienes buscan diseño, calidad y una atención diferente.</p>
-        <a class="primary" href="#catalogo">Ver catálogo</a>
-      </div>
-      <div class="hero-card">
-        <div class="phone">
-          <div class="phone-screen">
-            <span>BLACK</span>
-            <b>MOVIL</b>
-          </div>
+        <p class="hero-text">Tecnología Apple &amp; Samsung seleccionada para quienes buscan diseño, calidad y una atención diferente.</p>
+        <div class="hero-actions">
+          <a class="primary" href="#catalogo">Ver catálogo</a>
+          <a class="secondary" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20asesor%C3%ADa%20para%20comprar%20un%20equipo." target="_blank" rel="noopener">Hablar con asesor</a>
         </div>
+      </div>
+      <div class="hero-card" aria-label="Identidad BLACKMOVIL">
+        <div class="phone-hero">
+          <div class="phone-camera-pill"></div>
+          <div class="phone-screen"><span>BLACK</span><b>MOVIL</b></div>
+        </div>
+        <div class="hero-bm bm-left">B</div><div class="hero-bm bm-right">M</div>
         <div class="floating-badge">PREMIUM<br><small>TECH STORE</small></div>
       </div>
     </section>
 
-    <section class="categories">
+    <section class="categories" aria-label="Categorías">
       <a href="#iphone">iPhone</a><a href="#samsung">Samsung</a><a href="#macbook">MacBook</a><a href="#ipad">iPad</a><a href="#accesorios">Accesorios</a>
     </section>
 
     <section id="catalogo" class="section">
       <div class="section-head">
         <div><p class="eyebrow">CATÁLOGO</p><h2>Lo mejor de la tecnología</h2></div>
-        <p>Consulta disponibilidad y compra directamente por WhatsApp.</p>
+        <p>Consulta disponibilidad, almacenamiento, colores y precio. Te atendemos directamente por WhatsApp.</p>
       </div>
 
       <div class="products">
         <article class="product" id="iphone">
-          <div class="product-img phone-img"><span></span></div>
-          <p class="tag">APPLE</p><h3>iPhone</h3><p class="desc">Modelos disponibles · consulta colores y almacenamiento.</p>
-          <div class="price">Desde <b>$0</b></div>
-          <a class="wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20los%20iPhone%20disponibles." target="_blank">Consultar por WhatsApp →</a>
+          <div class="product-visual iphone-visual"><div class="mini-phone"><div class="camera-bump"><i></i><i></i><i></i></div></div><span class="visual-label">iPhone</span></div>
+          <p class="tag">APPLE</p><h3>iPhone</h3><p class="desc">Modelos actuales y anteriores según disponibilidad.</p>
+          <div class="price"><small>Precio</small><b>Consultar</b></div>
+          <a class="wa-button" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20los%20iPhone%20disponibles." target="_blank" rel="noopener"><span class="wa-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.3 11.3 0 0 0 12.1.1C5.9.1.9 5.1.9 11.3c0 2 .5 3.9 1.5 5.6L.8 23.9l7.2-1.6a11.2 11.2 0 0 0 4.1.8h.1c6.2 0 11.2-5 11.2-11.2 0-3-1-6.1-3-8.4ZM12.2 21.2h-.1a9.4 9.4 0 0 1-3.8-.8l-.3-.1-4.3.9.9-4.2-.2-.3a9.3 9.3 0 0 1-1.4-5c0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8a9.4 9.4 0 0 1 2.8 6.7c0 5.2-4.2 9.4-9.4 9.4Zm5.2-7c-.3-.2-1.7-.9-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.8.6.8.3 1.6.2 2.2.1.6-.1 1.7-.7 2-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></span>Consultar por WhatsApp</a>
         </article>
 
         <article class="product" id="samsung">
-          <div class="product-img samsung-img"><span>GALAXY</span></div>
-          <p class="tag">SAMSUNG</p><h3>Galaxy</h3><p class="desc">Serie Galaxy · consulta modelos y almacenamiento.</p>
-          <div class="price">Desde <b>$0</b></div>
-          <a class="wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20los%20Samsung%20Galaxy%20disponibles." target="_blank">Consultar por WhatsApp →</a>
+          <div class="product-visual samsung-visual"><div class="mini-galaxy"><div class="galaxy-lens"></div><div class="galaxy-lens"></div><div class="galaxy-lens"></div></div><span class="visual-label">Galaxy</span></div>
+          <p class="tag">SAMSUNG</p><h3>Galaxy</h3><p class="desc">Series S, Z y A según inventario disponible.</p>
+          <div class="price"><small>Precio</small><b>Consultar</b></div>
+          <a class="wa-button" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20los%20Samsung%20Galaxy%20disponibles." target="_blank" rel="noopener"><span class="wa-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.3 11.3 0 0 0 12.1.1C5.9.1.9 5.1.9 11.3c0 2 .5 3.9 1.5 5.6L.8 23.9l7.2-1.6a11.2 11.2 0 0 0 4.1.8h.1c6.2 0 11.2-5 11.2-11.2 0-3-1-6.1-3-8.4ZM12.2 21.2h-.1a9.4 9.4 0 0 1-3.8-.8l-.3-.1-4.3.9.9-4.2-.2-.3a9.3 9.3 0 0 1-1.4-5c0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8a9.4 9.4 0 0 1 2.8 6.7c0 5.2-4.2 9.4-9.4 9.4Zm5.2-7c-.3-.2-1.7-.9-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.8.6.8.3 1.6.2 2.2.1.6-.1 1.7-.7 2-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></span>Consultar por WhatsApp</a>
         </article>
 
         <article class="product" id="macbook">
-          <div class="product-img laptop-img"><span>MACBOOK</span></div>
-          <p class="tag">APPLE</p><h3>MacBook</h3><p class="desc">Potencia y elegancia para trabajo, estudio y creación.</p>
-          <div class="price">Desde <b>$0</b></div>
-          <a class="wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20MacBook%20disponibles." target="_blank">Consultar por WhatsApp →</a>
+          <div class="product-visual macbook-visual"><div class="laptop"><div class="laptop-screen">BLACKMOVIL</div><div class="laptop-base"></div></div><span class="visual-label">MacBook</span></div>
+          <p class="tag">APPLE</p><h3>MacBook</h3><p class="desc">Portátiles para trabajo, estudio y creación.</p>
+          <div class="price"><small>Precio</small><b>Consultar</b></div>
+          <a class="wa-button" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20MacBook%20disponibles." target="_blank" rel="noopener"><span class="wa-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.3 11.3 0 0 0 12.1.1C5.9.1.9 5.1.9 11.3c0 2 .5 3.9 1.5 5.6L.8 23.9l7.2-1.6a11.2 11.2 0 0 0 4.1.8h.1c6.2 0 11.2-5 11.2-11.2 0-3-1-6.1-3-8.4ZM12.2 21.2h-.1a9.4 9.4 0 0 1-3.8-.8l-.3-.1-4.3.9.9-4.2-.2-.3a9.3 9.3 0 0 1-1.4-5c0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8a9.4 9.4 0 0 1 2.8 6.7c0 5.2-4.2 9.4-9.4 9.4Zm5.2-7c-.3-.2-1.7-.9-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.8.6.8.3 1.7.2 2.2.1.6-.1 1.7-.7 2-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></span>Consultar por WhatsApp</a>
         </article>
 
         <article class="product" id="ipad">
-          <div class="product-img tablet-img"><span>iPad</span></div>
+          <div class="product-visual ipad-visual"><div class="mini-tablet"><div class="tablet-screen">iPad</div></div><span class="visual-label">iPad</span></div>
           <p class="tag">APPLE</p><h3>iPad</h3><p class="desc">Versatilidad para estudiar, crear y disfrutar.</p>
-          <div class="price">Desde <b>$0</b></div>
-          <a class="wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20iPad%20disponibles." target="_blank">Consultar por WhatsApp →</a>
+          <div class="price"><small>Precio</small><b>Consultar</b></div>
+          <a class="wa-button" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20iPad%20disponibles." target="_blank" rel="noopener"><span class="wa-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.3 11.3 0 0 0 12.1.1C5.9.1.9 5.1.9 11.3c0 2 .5 3.9 1.5 5.6L.8 23.9l7.2-1.6a11.2 11.2 0 0 0 4.1.8h.1c6.2 0 11.2-5 11.2-11.2 0-3-1-6.1-3-8.4ZM12.2 21.2h-.1a9.4 9.4 0 0 1-3.8-.8l-.3-.1-4.3.9.9-4.2-.2-.3a9.3 9.3 0 0 1-1.4-5c0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8a9.4 9.4 0 0 1 2.8 6.7c0 5.2-4.2 9.4-9.4 9.4Zm5.2-7c-.3-.2-1.7-.9-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.8.6.8.3 1.7.2 2.2.1.6-.1 1.7-.7 2-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></span>Consultar por WhatsApp</a>
         </article>
 
         <article class="product" id="accesorios">
-          <div class="product-img accessory-img"><span>ACCESSORIES</span></div>
+          <div class="product-visual accessories-visual"><div class="watch"></div><div class="buds"><i></i><i></i></div><span class="visual-label">Accesorios</span></div>
           <p class="tag">APPLE</p><h3>Accesorios</h3><p class="desc">AirPods, Apple Watch, Apple Pencil y más.</p>
-          <div class="price">Consultar</div>
-          <a class="wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20accesorios%20Apple." target="_blank">Consultar por WhatsApp →</a>
+          <div class="price"><small>Precio</small><b>Consultar</b></div>
+          <a class="wa-button" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20consultar%20accesorios%20disponibles." target="_blank" rel="noopener"><span class="wa-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.3 11.3 0 0 0 12.1.1C5.9.1.9 5.1.9 11.3c0 2 .5 3.9 1.5 5.6L.8 23.9l7.2-1.6a11.2 11.2 0 0 0 4.1.8h.1c6.2 0 11.2-5 11.2-11.2 0-3-1-6.1-3-8.4ZM12.2 21.2h-.1a9.4 9.4 0 0 1-3.8-.8l-.3-.1-4.3.9.9-4.2-.2-.3a9.3 9.3 0 0 1-1.4-5c0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8a9.4 9.4 0 0 1 2.8 6.7c0 5.2-4.2 9.4-9.4 9.4Zm5.2-7c-.3-.2-1.7-.9-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.8.6.8.3 1.7.2 2.2.1.6-.1 1.7-.7 2-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></span>Consultar por WhatsApp</a>
         </article>
       </div>
+      <p class="price-note">Los precios se publicarán aquí cuando me compartas el valor exacto de cada modelo. Así evitamos mostrar precios incorrectos.</p>
+    </section>
+
+    <section class="brand-showcase">
+      <img src="assets/blackmovil-wordmark.png" alt="BLACKMOVIL — Tu mundo - Tu estilo - Tu tecnología">
     </section>
 
     <section class="contact">
       <p class="eyebrow">ATENCIÓN PERSONALIZADA</p>
       <h2>¿Buscas un equipo en especial?</h2>
       <p>Escríbenos y te ayudamos con disponibilidad, colores, almacenamiento y precio.</p>
-      <a class="primary" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20asesor%C3%ADa%20para%20comprar%20un%20equipo." target="_blank">Hablar por WhatsApp</a>
+      <a class="primary" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20asesor%C3%ADa%20para%20comprar%20un%20equipo." target="_blank" rel="noopener"><span class="wa-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.3 11.3 0 0 0 12.1.1C5.9.1.9 5.1.9 11.3c0 2 .5 3.9 1.5 5.6L.8 23.9l7.2-1.6a11.2 11.2 0 0 0 4.1.8h.1c6.2 0 11.2-5 11.2-11.2 0-3-1-6.1-3-8.4ZM12.2 21.2h-.1a9.4 9.4 0 0 1-3.8-.8l-.3-.1-4.3.9.9-4.2-.2-.3a9.3 9.3 0 0 1-1.4-5c0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8a9.4 9.4 0 0 1 2.8 6.7c0 5.2-4.2 9.4-9.4 9.4Zm5.2-7c-.3-.2-1.7-.9-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.8.6.8.3 1.7.2 2.2.1.6-.1 1.7-.7 2-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></span>Hablar por WhatsApp</a>
     </section>
   </main>
 
   <footer>
     <div><strong>BLACKMOVIL</strong><span>Tu mundo · Tu estilo · Tu tecnología.</span></div>
-    <p>Medellín, Colombia · Apple & Samsung</p>
+    <p>Medellín, Colombia · Apple &amp; Samsung</p>
   </footer>
 
-  <a class="float-wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20informaci%C3%B3n." target="_blank" aria-label="WhatsApp">✆</a>
+  <a class="float-wa" href="https://wa.me/573043877708?text=Hola%20BLACKMOVIL,%20quiero%20informaci%C3%B3n." target="_blank" rel="noopener" aria-label="Escribir a BLACKMOVIL por WhatsApp">
+    <span class="wa-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M20.5 3.5A11.3 11.3 0 0 0 12.1.1C5.9.1.9 5.1.9 11.3c0 2 .5 3.9 1.5 5.6L.8 23.9l7.2-1.6a11.2 11.2 0 0 0 4.1.8h.1c6.2 0 11.2-5 11.2-11.2 0-3-1-6.1-3-8.4ZM12.2 21.2h-.1a9.4 9.4 0 0 1-3.8-.8l-.3-.1-4.3.9.9-4.2-.2-.3a9.3 9.3 0 0 1-1.4-5c0-5.2 4.2-9.4 9.4-9.4 2.5 0 4.9 1 6.7 2.8a9.4 9.4 0 0 1 2.8 6.7c0 5.2-4.2 9.4-9.4 9.4Zm5.2-7c-.3-.2-1.7-.9-2-.9-.3-.1-.5-.2-.7.2-.2.3-.8.9-.9 1.1-.2.2-.3.2-.6.1-1.5-.7-2.5-1.2-3.5-2.8-.3-.5.3-.5.8-1.6.1-.2 0-.4 0-.6-.1-.2-.7-1.7-1-2.3-.3-.6-.5-.5-.7-.5h-.6c-.2 0-.6.1-.9.4-.3.3-1.2 1.2-1.2 2.9s1.2 3.4 1.4 3.6c.2.2 2.4 3.7 5.8 5.1.8.3 1.4.5 1.8.6.8.3 1.7.2 2.2.1.6-.1 1.7-.7 2-1.3.2-.6.2-1.2.2-1.3-.1-.2-.3-.3-.6-.5Z"/></svg></span>
+  </a>
+
+  <script src="script.js"></script>
 </body>
 </html>
