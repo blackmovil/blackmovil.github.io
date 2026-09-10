@@ -1,19 +1,12 @@
-# BLACKMOVIL — sitio web
+# BLACKMOVIL V5
 
-Sitio estático para GitHub Pages.
+Catálogo BLACKMOVIL con identidad visual negro + plata + azul eléctrico.
 
-## Archivos
-- `index.html` — página principal.
-- `styles.css` — diseño negro/plata responsive.
-- `script.js` — navegación suave.
-- `assets/blackmovil-logo.png` — identidad visual BLACKMOVIL.
-- `assets/blackmovil-wordmark.png` — wordmark usado dentro del sitio.
+## Publicación en GitHub Pages
+1. Descomprime este ZIP.
+2. En el repositorio de GitHub, reemplaza `index.html`, `styles.css`, `script.js` y la carpeta `assets` por los de esta versión.
+3. Mantén el sitio en la rama `main` y la carpeta raíz.
+4. GitHub Pages actualizará la web automáticamente.
 
-## Publicar en GitHub Pages
-Sube estos archivos al repositorio `blackmovil/blackmovil.github.io` en la rama `main` y en la carpeta raíz `/ (root)`.
-
-## WhatsApp
-Todos los botones usan el número comercial de BLACKMOVIL: +57 304 387 7708.
-
-## Precios
-Los precios aparecen como “Consultar” hasta que se carguen los valores reales de cada modelo. No se dejaron precios inventados.
+WhatsApp: +57 304 387 7708
+URL de WhatsApp: https://wa.me/573043877708
